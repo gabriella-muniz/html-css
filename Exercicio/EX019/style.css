@@ -1,0 +1,45 @@
+@charset "UTF-8";
+ 
+body{ 
+background-image: linear-gradient(to right, rgb(128, 252, 128), rgb(101, 101, 252));
+font-family: 'Times New Roman', Times, serif;
+}
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;   
+}
+h1{
+    color: blue;
+}
+h1#principal {
+    text-align: center;
+    background-color: rgb(71, 71, 248);
+    color: blanchedalmond;
+}
+h2{
+    color: blueviolet;
+}
+.basico {
+    color: green;
+}
+.intermediario {
+    color: rgb(172, 172, 48);
+}
+.avancado {
+    color: red;
+}
+p{
+    text-align: justify;
+    font-size: 1.5em;
+}
+div{
+    color: black;  
+}
+div:hover {
+    color: aquamarine;
+    background-color: lightslategrey;
+    width: 300px;
+}
